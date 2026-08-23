@@ -1,0 +1,38 @@
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 32px 20px;
+  flex-grow: 1;
+}
+
+.field {
+  position: relative;
+  max-width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--code-bg);
+  overflow: hidden;
+}
+
+.player-shape {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: left 0.2s ease, top 0.2s ease;
+  box-shadow: var(--shadow);
+}
+
+.activity-log {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  max-width: 500px;
+  color: var(--text);
+  font-size: 15px;
+}
