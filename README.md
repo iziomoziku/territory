@@ -4,7 +4,7 @@ A small real-time multiplayer prototype: a Go WebSocket server tracks
 connected players and broadcasts joins/disconnects to everyone else, and a
 React client renders each player as a colored dot on screen.
 
-See [ARTICLE.md](ARTICLE.md) for a write-up of how the server works.
+![Multiplayer server demo](./docs/demo.gif)
 
 ## Structure
 
